@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohammed Amine Elkess - Full Stack Web & Mobile Developer Portfolio">
+    <meta name="author" content="Mohammed Amine Elkess">
+    <title>Mohammed Amine Elkess | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">&lt;Elkess /&gt;</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-bg"></div>
+            <div class="particles"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Mohammed Amine Elkess</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    1337 Student passionate about Full Stack Web & Mobile Development in C/C++, Flutter, and Laravel.
+                    <br>Building efficient and modern solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Elkess" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mohammedamineelkess@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:0652151794" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-body">
+                        <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span> {
+    <span class="code-keyword">constructor</span>() {
+        <span class="code-keyword">this</span>.name = <span class="code-string">"Elkess"</span>;
+        <span class="code-keyword">this</span>.location = <span class="code-string">"Deroua, Casa-Settat"</span>;
+        <span class="code-keyword">this</span>.school = <span class="code-string">"1337"</span>;
+    }
+
+    <span class="code-function">getSkills</span>() {
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"C/C++"</span>, <span class="code-string">"Flutter"</span>,
+            <span class="code-string">"Laravel"</span>, <span class="code-string">"JavaScript"</span>
+        ];
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span> About Me
+                <div class="title-line"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Computer Science student at 1337</strong>, passionate about full stack web development 
+                        and low-level programming in C/C++. I combine web and mobile development skills, including 
+                        <strong>Flutter</strong> and <strong>Laravel</strong>, with algorithmic knowledge to create dynamic 
+                        and efficient solutions.
+                    </p>
+                    <p>
+                        Currently working on a <strong>multi-store platform using Flutter and Laravel</strong>. I participate 
+                        in collaborative projects and internships to enhance my technical skills and teamwork, and I enjoy 
+                        programming challenges as a hobby.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>1337 Student</h4>
+                                <p>School of Coding</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Deroua, Casa-Settat</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Focus</h4>
+                                <p>Full Stack Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span> Education
+                <div class="title-line"></div>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024 - Present">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>1337 – School of Coding</h3>
+                        <h4>Student in programming and algorithms</h4>
+                        <p>C, C++, Flutter, virtualization, collaborative projects</p>
+                        <span class="timeline-date">2024 – Present</span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2023 - 2024">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>ISTICG – Berrechid</h3>
+                        <h4>Second Year – Web Full Stack</h4>
+                        <p>Advanced web development, modern frameworks, and full stack technologies</p>
+                        <span class="timeline-date">2023 – 2024</span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022 - 2023">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>ISTICG – Berrechid</h3>
+                        <h4>First Year – Software Development</h4>
+                        <p>Foundations of software development, algorithms, and programming fundamentals</p>
+                        <span class="timeline-date">2022 – 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span> Technical Skills
+                <div class="title-line"></div>
+            </h2>
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks & Libraries</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">NoSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Agile (SCRUM, Jira)</span>
+                        <span class="skill-tag">Command Line</span>
+                        <span class="skill-tag">VirtualBox</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Prestashop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Self-motivation</span>
+                    </div>
+                    <div class="soft-skill-item">
+                        <i class="fas fa-users"></i>
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="soft-skill-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Empathy</span>
+                    </div>
+                    <div class="soft-skill-item">
+                        <i class="fas fa-brain"></i>
+                        <span>Critical Thinking</span>
+                    </div>
+                    <div class="soft-skill-item">
+                        <i class="fas fa-search"></i>
+                        <span>Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span> Projects
+                <div class="title-line"></div>
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Current Project</span>
+                        <h3>Multi-Store Platform</h3>
+                        <p>Developing a comprehensive multi-store e-commerce platform using Flutter for the mobile app and Laravel for the backend API. Features include vendor management, product catalog, and secure payment integration.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Collaborative Project</span>
+                        <h3>Delivery System</h3>
+                        <p>Developed a delivery management system with Laravel, featuring real-time order tracking, driver assignment, and route optimization. Collaborative project focusing on efficient logistics.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Graphics Programming</span>
+                        <h3>Cub3D – 3D Raycasting Engine</h3>
+                        <p>Built a 3D raycasting engine in C, inspired by Wolfenstein 3D. Implemented texture mapping, sprite rendering, and player movement using low-level graphics programming.</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                            <span>MiniLibX</span>
+                            <span>Raycasting</span>
+                            <span>Graphics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">System Programming</span>
+                        <h3>Minishell – Unix Shell</h3>
+                        <p>Created a mini Unix shell in C with features like command execution, pipes, redirections, and environment variable management. Deep dive into process management and system calls.</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                            <span>Unix</span>
+                            <span>System Calls</span>
+                            <span>Processes</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Internship</span>
+                        <h3>WordPress Showcase Sites</h3>
+                        <p>Created two professional WordPress showcase websites during internship, featuring custom themes, responsive design, and optimized performance for client businesses.</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Live demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Internship</span>
+                        <h3>PrestaShop E-commerce</h3>
+                        <p>Developed a complete e-commerce website using PrestaShop with custom modules, payment integration, and inventory management system during internship.</p>
+                        <div class="project-tech">
+                            <span>PrestaShop</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Live demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05.</span> Get In Touch
+                <div class="title-line"></div>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm currently looking for new opportunities and my inbox is always open. 
+                        Whether you have a question, want to collaborate on a project, or just want to say hi, 
+                        I'll try my best to get back to you!
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:mohammedamineelkess@gmail.com">mohammedamineelkess@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:0652151794">0652151794</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Elkess" target="_blank">github.com/Elkess</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Deroua, Casa-Settat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hobbies">
+                <h3><i class="fas fa-gamepad"></i> Hobbies & Interests</h3>
+                <p>
+                    Participating in programming challenges in JavaScript such as <strong>Coding Game</strong>, 
+                    <strong>LeetCode</strong>, and <strong>Advent of Code</strong> for fun and continuous skill improvement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mohammed Amine Elkess. Built with passion and code.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Elkess" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mohammedamineelkess@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:0652151794" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
